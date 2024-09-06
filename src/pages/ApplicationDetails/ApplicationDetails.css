@@ -1,0 +1,32 @@
+.app-info-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .general-info,
+  .dependencies {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-height: 15rem;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
